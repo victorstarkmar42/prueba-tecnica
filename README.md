@@ -55,6 +55,10 @@ sudo docker run -p 3306:3306 -d --name mysql8 -e MYSQL_ROOT_PASSWORD=secretpassw
 ```
 
 ### una vez creada la base de datos ya podemos utilizar los endpoint configurados en esta aplicacion
+### Comando para correr el servidor en modo de desarrollo 
+```bash
+npm run dev
+```
 
 ## Se recomienda uso de software para probar apis como postman.
 
